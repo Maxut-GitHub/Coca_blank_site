@@ -1,0 +1,292 @@
+@import "_main_styles.scss";
+
+.main-text-section {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	text-align: center;
+}
+.main-text-section > h2 {
+	margin-top: 24px;
+	width: 900px;
+}
+
+.plans-section {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	gap: 24px;
+	margin-top: 60px;
+}
+
+.plans-section > div {
+	padding: 40px 24px 0 24px;
+	border-radius: 16px;
+	border: 1px solid var(--neutral-30, #ededed);
+	width: 378px;
+}
+.plans-section > div > div:first-child {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 100px;
+	background: var(--neutral-20, #f5f5f5);
+}
+.plans-section__name {
+	margin: 16px 0 8px 0;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 34px;
+	color: var(--neutral-100, #1d1e25);
+}
+.plans-section__text,
+.plans-section__prise > p {
+	color: var(--neutral-60, #7e8492);
+}
+.plans-section__prise {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	align-items: end;
+	gap: 8px;
+	margin: 24px 0;
+}
+.plans-section__includet {
+	font-weight: 700;
+	line-height: 24px;
+	font-size: 16px;
+}
+.plans-section button {
+	background-color: white;
+	border-radius: 100px;
+	border: 1px solid var(--neutral-40, #ced1d8);
+	color: var(--neutral-100, #1d1e25);
+	font-weight: 600;
+	line-height: 24px;
+	margin: 40px auto;
+}
+.plans-section__pros {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+
+	gap: 16px;
+	margin-top: 16px;
+}
+.plan {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	gap: 8px;
+}
+.plans-section__popular {
+	position: relative;
+	bottom: 60px;
+	-webkit-box-shadow: 0px 16px 24px 0px rgba(30, 30, 30, 0.08);
+	box-shadow: 0px 16px 24px 0px rgba(30, 30, 30, 0.08);
+}
+.plans-section__best-offer {
+	position: relative;
+	left: 220px;
+	bottom: 10px;
+	border-radius: 100px;
+	background: var(--primary-color, #1463ff);
+	min-width: 132px;
+	padding: 6px 12px;
+}
+.best-offer {
+	background: var(--neutral-90, #161a34);
+	color: var(--neutral-10, #fff);
+}
+#best-offer {
+	color: var(--neutral-10, #fff);
+}
+#plans-section__lighting-background {
+	background: var(--primary-color, #1463ff);
+}
+#plans-section__lighting-background > img {
+	position: relative;
+	left: 66px;
+}
+.plan_disabled {
+	text-decoration: line-through;
+	color: var(--neutral-60, #7e8492);
+}
+
+.questions-section {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	margin-top: 82px;
+	width: auto;
+}
+.questions-section__main-text {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-bottom: 0;
+}
+.questions-section__main-text > p {
+	margin: 24px 0 80px 0;
+	color: var(--neutral-60, #7e8492);
+}
+
+.questions-section__question {
+	padding: 10px 25px;
+	margin-bottom: 80px;
+	width: 150%;
+	-ms-flex-item-align: center;
+	-ms-grid-row-align: center;
+	align-self: center;
+}
+.question__switch {
+	display: none;
+}
+.question__answer {
+	max-height: 0;
+	overflow: hidden;
+	-webkit-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
+	max-width: 650px;
+	color: var(--neutral-60, #7e8492);
+}
+.question__switch:checked ~ .question__answer {
+	max-height: 100px;
+}
+.question__headline::before {
+	content: "";
+	position: absolute;
+	left: 1080px;
+	width: 24px;
+	height: 24px;
+	background: url(../assets/for_pricing-page/plus.svg);
+}
+.question__switch:checked ~ .question__headline::before {
+	background: url(../assets/for_pricing-page/minus.svg);
+}
+.question__headline {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	position: relative;
+	margin-bottom: 15px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: pointer;
+	font-size: 24px;
+	line-height: 150%;
+}
+
+@media screen and (max-width: 1600px) {
+	.plans-section {
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+		width: 100%;
+	}
+	.plans-section__popular {
+		position: static;
+	}
+	.main-text-section,
+	.main-text-section > h2 {
+		width: 100%;
+	}
+	.questions-section {
+		-ms-flex-item-align: center;
+		-ms-grid-row-align: center;
+		align-self: center;
+	}
+	.questions-section__question {
+		width: 100%;
+	}
+	.question__headline::before {
+		left: 700px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.main-text-section,
+	.main-text-section > h2 {
+		margin-bottom: 0;
+	}
+	.plans-section > div {
+		margin: 0 20px;
+	}
+	.plans-section__popular {
+		bottom: 0;
+	}
+	.plans-section__best-offer {
+		left: 160px;
+	}
+	.questions-section {
+		padding: 0 20px;
+	}
+	.questions-section > div {
+		margin-bottom: 30px;
+	}
+	.questions-section__main-text {
+		margin: 0 20px;
+		text-align: center;
+	}
+	.question__headline {
+		font-size: 16px;
+		max-width: 300px;
+	}
+	.questions-section__question {
+		padding: 5px;
+		margin: 0 auto;
+		width: auto;
+	}
+	.questions-section__main-text > p {
+		margin-bottom: 32px;
+	}
+	.question__headline::before {
+		left: 300px;
+	}
+	.question__answer {
+		width: 310px;
+	}
+}

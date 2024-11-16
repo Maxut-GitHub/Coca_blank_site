@@ -1,0 +1,317 @@
+.graphic-section {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin: 289px 0 0 0;
+}
+
+.graphic-section__customer-growth {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	position: relative;
+	z-index: 1;
+	left: 405px;
+	bottom: 78px;
+	width: 213px;
+	height: 220px;
+	padding: 16px 18px;
+	gap: 12px;
+	border-radius: 8px;
+	background: var(--White, #ffffff);
+	-webkit-box-shadow: 20px 40px 80px 0px rgba(45, 51, 81, 0.12);
+	box-shadow: 20px 40px 80px 0px rgba(45, 51, 81, 0.12);
+}
+.graphic-section__customer-growth > p {
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: -0.5px;
+}
+.customer-growth__main-graf {
+	position: relative;
+	bottom: 115px;
+	left: 38px;
+	width: 140px;
+	height: 111px;
+	background-image: url(../assets/for_home-page/Castomer_Growth/lines.svg);
+	background-size: cover;
+}
+.customer-growth__number {
+	text-align: center;
+	font-family: "Poppins", sans-serif;
+	width: 16px;
+	height: 19px;
+	margin-top: 35px;
+	opacity: 0.7;
+}
+.customer-growth__number:first-child {
+	margin: 0;
+}
+.customer-growth__month {
+	position: relative;
+	bottom: 110px;
+	right: 7px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	gap: 18px;
+	color: var(--Grey, #808d9e);
+}
+.customer-growth__month > div:first-child {
+	margin-left: 35px;
+}
+.customer-growth__month > div {
+	text-align: center;
+	width: 40px;
+}
+.customer-growth__month-section {
+	height: 200px;
+}
+.customer-growth__solonny {
+	position: relative;
+	bottom: 239px;
+	left: 40px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	align-items: end;
+	gap: 38px;
+}
+
+.graphic-section__sales-report {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	position: relative;
+	bottom: 28px;
+	right: 125px;
+	padding: 20px;
+	width: 419px;
+	height: 350px;
+	border-radius: 8px;
+	background: var(--White, #fff);
+	-webkit-box-shadow: 20px 40px 80px 0px rgba(89, 96, 135, 0.12);
+	box-shadow: 20px 40px 80px 0px rgba(89, 96, 135, 0.12);
+}
+.graphic-section__sales-report > p {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: -0.5px;
+}
+.sales-report__legend {
+	margin: 25px 0 19px 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: 367px;
+
+	gap: 60px;
+	font-size: 14px;
+	line-height: 22px;
+	letter-spacing: -0.5px;
+}
+.legend__my-product,
+.legend__competior {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	gap: 10px;
+}
+.legend-blue {
+	width: 12.2px;
+	height: 10px;
+	border-radius: 2px;
+	background: var(--Blue, #2280ff);
+}
+.legend-red {
+	width: 12.2px;
+	height: 10px;
+	border-radius: 2px;
+	background: var(--Orange, #f55);
+}
+.sales-report__number-section {
+	width: 58px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	align-items: end;
+	padding-right: 28px;
+	gap: 10px;
+	z-index: 1;
+	background-color: #fff;
+}
+.sales-report__month-section {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	gap: 30px;
+	margin-left: 56px;
+}
+.sales-report__number-section,
+.sales-report__month-section {
+	line-height: 24px;
+	letter-spacing: 0.086px;
+	font-size: 12px;
+	color: var(--Grey, #808d9e);
+}
+.sales-report__graf-section {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: 300px;
+	height: 200px;
+}
+.sales-report__graf-section > img {
+	margin-right: 49px;
+	height: 200px;
+}
+.sales-report__graf-section > img:first-child {
+	margin-left: 9px;
+}
+#blue-vector {
+	position: relative;
+	right: 373px;
+	top: 40px;
+	width: 335px;
+	height: 81px;
+}
+#red-vector {
+	position: relative;
+	right: 733px;
+	top: 61px;
+	width: 388px;
+	height: 59px;
+}
+#selector {
+	position: relative;
+	right: 955px;
+	top: 39px;
+	width: 14px;
+	height: 14px;
+}
+#line-big {
+	position: relative;
+	right: 1035px;
+	width: 48.8px;
+	height: 183px;
+}
+#restangle {
+	position: relative;
+	right: 24px;
+	top: 30px;
+	width: 72px;
+	height: 38px;
+	z-index: -1;
+}
+.sales-report__graf-section > div {
+	position: relative;
+	right: 1100px;
+	bottom: 16px;
+	font-size: 10px;
+	z-index: 0;
+}
+
+.sales-marketing {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	position: relative;
+	-ms-flex-item-align: center;
+	-ms-grid-row-align: center;
+	align-self: center;
+	bottom: 120px;
+	left: 390px;
+	height: 119px;
+	min-width: 360px;
+	gap: 70px;
+	padding: 20px;
+	border-radius: 8px;
+	background: #000;
+	-webkit-box-shadow: 20px 40px 80px 0px rgba(45, 51, 81, 0.12);
+	box-shadow: 20px 40px 80px 0px rgba(45, 51, 81, 0.12);
+	color: #5c616f;
+	font-weight: 600;
+	line-height: 20px;
+	font-size: 14px;
+}
+.marceting-price,
+.sales-price {
+	margin: 4px 0 8px 0;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 26px;
+	color: var(--neutral-10, #fff);
+}
+.marceting > div,
+.sales > div {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.marceting > div > p > img,
+.sales > div > p > img {
+	width: 12px;
+	height: 12px;
+}
+.sales > p,
+.marceting > p,
+.sales > div > p,
+.marceting > div > p {
+	font-size: 14px;
+}
+#sales__price-up {
+	color: var(--Green, #60d39c);
+	margin-right: 9px;
+}
+#marceting__price-down {
+	color: #e35454;
+	margin-right: 9px;
+}
+
+@media screen and (max-width: 1476px) {
+	.sales-marketing {
+		left: -55px;
+		bottom: 10px;
+	}
+	.graphic-section {
+		margin: 156px 200px 0 0;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.graphic-section__sales-report {
+		padding: 10px;
+		width: 380px;
+	}
+	.sales-marketing {
+		padding: 10px;
+		gap: 50px;
+	}
+	.graphic-section {
+		margin-right: 0;
+	}
+}

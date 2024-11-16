@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../css/contact_styles.css" type="text/css" />
+	<title>Coca contacts</title>
+</head>
+
+<body>
+	<header>
+		<img src="../assets/Logo.svg" alt="logo">
+		<div class="navigation">
+			<div class="header__line"></div>
+			<nav>
+				<a href="index.html">Home</a>
+				<a href="about.html">About</a>
+				<a href="blog.html">Blog</a>
+				<a href="pricing.html">Pricing</a>
+				<a id="header__contacts" href="contactUs.html">Contact Us -></a>
+			</nav>
+			<div class="mobile-navigation">
+				<div onclick="showMobileContent()" class="mobile-navigation__dropdown"></div>
+				<div id="dropdown-mobile" class="mobile-content">
+					<a href="index.html">Home</a>
+					<a href="about.html">About</a>
+					<a href="blog.html">Blog</a>
+					<a href="pricing.html">Pricing</a>
+					<a href="contactUs.html">Contact Us</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="contacts-section">
+			<h2>Contact our team to find out more</h2>
+			<div>
+				<div class="contnacts-section__fragment">
+					<p>Support</p>
+					<p>Our friendly team is here to help.</p>
+					<p>support@sans.com</p>
+				</div>
+				<div class="contnacts-section__fragment">
+					<p>Sales</p>
+					<p>Questions or queries? Get in touch!</p>
+					<p>sales@sans.com</p>
+				</div>
+				<div class="contnacts-section__fragment">
+					<p>Phone</p>
+					<p>Mon-Fri from 8am to 5pm.</p>
+					<p>+1 (435) 345-7655</p>
+				</div>
+			</div>
+		</section>
+		<section class="form-section">
+			<div>
+				<h4>Let’s level up your brand</h4>
+				<p>You can reach us anytime
+					<a href="">hellosansbrothers@gmail.com</a>
+				</p>
+				<div class="form-section__form-container">
+					<div class="form-group">
+						<label for="first_name">First name</label>
+						<input required maxlength="15" type="text" placeholder="First name" name="first_name" id="first_name">
+					</div>
+					<div class="form-group">
+						<label for="last_name">Last name</label>
+						<input required maxlength="15" type="tel" placeholder="Last name" name="last_name" id="last_name">
+					</div>
+					<div class="form-group">
+						<label for="email">Email</label>
+						<input type="email" placeholder="you@company.com" name="email" id="email">
+					</div>
+					<div class="form-group">
+						<label for="number">Phone number</label>
+						<input type="number" placeholder="+1 (555) 000-0000" name="number" id="number">
+					</div>
+					<div class="form-group">
+						<label for="message">Message</label>
+						<textarea name="message" placeholder="Leave us a message..." rows="7" id="message"></textarea>
+					</div>
+					<button type="submit">Get Started</button>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="footer__text">
+			<div>
+				<p>Think beyond the wave</p>
+				<p>Ask about Sans products, pricing, implementation, or anything else. Our highly trained reps are
+					standing by, ready to help</p>
+			</div>
+			<button id="footer_button">Try for free</button>
+		</div>
+		<div>
+			<div class="footer__logo">
+				<img src="../assets/Logo_for_footer.svg" alt="logo">
+				<p>We built an elegant solution. Our team created a fully integrated sales and marketing solution for
+					SMBs</p>
+			</div>
+			<div class="footer__links">
+				<div>
+					<p>Company</p>
+					<a href="">About</a>
+					<a href="">Pricing</a>
+					<a href="">Jobs</a>
+					<a href="">Blog</a>
+				</div>
+				<div>
+					<p>Product</p>
+					<a href="">Sales Software</a>
+					<a href="">Marketplace</a>
+					<a href="">Terms & Conditions</a>
+					<a href="">Privacy Policy</a>
+				</div>
+				<div>
+					<p>Discover</p>
+					<a href="">CRM Comparision</a>
+					<a href="">Partner Program</a>
+					<a href="">What is CRM</a>
+					<a href="">Resource</a>
+				</div>
+				<div>
+					<p>Help Center</p>
+					<a href="">Community</a>
+					<a href="">Knowledge Base</a>
+					<a href="">Academy</a>
+					<a href="">Support</a>
+				</div>
+			</div>
+		</div>
+		<div class="footer__line"></div>
+		<div class="footer__other">
+			<div>
+				<div>
+					<img src="../assets/Social_icons(for_footer)/fasebook.svg" alt="fasebook">
+					<img src="../assets/Social_icons(for_footer)/twitter.svg" alt="twitter">
+					<img src="../assets/Social_icons(for_footer)/instagram.svg" alt="instagram">
+					<img src="../assets/Social_icons(for_footer)/in.svg" alt="in">
+				</div>
+				<div>
+					<a href="">Privacy Policy</a>
+					<a href="">Terms & Conditions</a>
+					<a href="">Support</a>
+				</div>
+			</div>
+			<p>© Copyright 2023,t All Rights Reserved</p>
+		</div>
+	</footer>
+	<script src="../scripts/animation.js"></script>
+	<script src="../scripts/scriptForHeader-mobile.js"></script>
+</body>
+
+</html>
